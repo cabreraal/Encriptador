@@ -25,7 +25,7 @@
     background-color: #f3f5fc;
     position: absolute;
     width: 42%;
-    height: 60%;
+    height: 58%;
     left: 12%;
     top: 15%;
     border: none;
@@ -34,6 +34,7 @@
     line-height: 150%;
     font-weight: 400;
     font-size: 32px;
+    resize: none;
 }
 
 .textarea_msn::placeholder {
@@ -45,4 +46,26 @@
     border: none;
     outline: none;
   }
-
+  .leyenda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 80%;
+  }
+  .leyenda p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
