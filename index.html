@@ -16,7 +16,7 @@
             rows="30" required
             onkeypress="return ((event.charCode>=97 && event.charCode <=122)||(event.charCode==32))"></textarea>
             <div class="terminos">
-                <p>Solo letras minúsculas y sin acentos.</p>
+                <p>&#10071&#10071 Solo letras minúsculas y sin acentos.</p>
             </div>
             <div class="botones">
                 <button class="btn-encriptar" type="button" onclick="encriptar()">
@@ -27,7 +27,25 @@
         </div>
     </div>
     <div class="contenedor_encriptado">
-
+        <img src="img/muñeco.png" alt="" id="muñeco" />
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+            <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+            <p id="parrafo">
+                Ingresa el texto que deseas encriptar o desencriptar
+            </p>
+        </div>
+        <div class="caja_copiar">
+            <input value="Copiar" class="btn_copia" type="button" id="copia" onmousedown="copiar();">
+        </div>
+        <!-- Dejo una etiqueta parrafo para llenarla con el resultado del texto encriptado o desencriptado -->
+        <div class="contenedor-resultado">
+            <p id="parrafo" class="texto-resultado"></p>
+        </div>
     </div>
+    <footer>
+        <p>
+            Creado por Augusto Cabrera
+        </p>
+    </footer>
 </body>
 </html>
