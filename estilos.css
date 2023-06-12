@@ -18,12 +18,12 @@ header {
 }
 
 .textarea_msn {
-    background-color: #f3f5fc;
+    background-color: red;
     position: absolute;
     width: 42%;
     height: 58%;
     left: 12%;
-    top: 15%;
+    top: 5%;
     border: none;
     font-style: normal;
     font-family: "Inter";
@@ -53,7 +53,7 @@ header {
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 80%;
+    top: 65%;
 }
 
 .leyenda p {
@@ -77,11 +77,11 @@ header {
     position: absolute;
     width: 60%;
     left: 15%;
-    top: 82%;
+    top: 68%;
 }
 
 .btn_encripta,
-.btn_desencripta {
+.btn_desencripta{
     width: 25%;
     height: 40px;
     text-align: center;
@@ -101,7 +101,7 @@ header {
     margin-right: 2%;
 }
 
-.btn_desencripta {
+.btn_desencripta{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -119,6 +119,7 @@ header {
     width: 24.5%;
     padding: 1.8%;
 }
+
 .contenedor_encriptado{
     display: flex;
     justify-content: center;
@@ -164,3 +165,62 @@ header {
     text-align: center;
     color: #495057;
   }
+  .contenedor_encriptado img {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 15%;
+  }
+
+  .caja_copiar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1% 0;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 87%;
+  justify-content: center;
+}
+.btn_copia{
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    font-weight: 400;
+    color: #0a3871;
+    height: 40px;
+    text-align: center;
+    border-radius: 24px;
+    font-family: "Inter";
+    padding: 1%;
+    gap: 8px;
+    font-size: 18px;
+    line-height: 19px;
+}
+.btn_copia:hover {
+    margin: 0.3%;
+    width: 69%;
+    padding: 1.8%;
+}
+footer {
+	padding:0;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+
+footer p {
+    margin: 0.8% 0;
+}
