@@ -12,10 +12,19 @@
     </header>
     <div class="contenedor_principal">
         <div class="contenedor_encriptar">
-            
-
+            <textarea type="text" placeholder="Ingrese texto aquí" autofocus id="mensaje" class="txt_texto" cols="60"
+            rows="30" required
+            onkeypress="return ((event.charCode>=97 && event.charCode <=122)||(event.charCode==32))"></textarea>
+            <div class="terminos">
+                <p>Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">
+                    Encriptar
+                </button>
+                <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()" />
+            </div>
         </div>
-
     </div>
     <div class="contenedor_encriptado">
 
