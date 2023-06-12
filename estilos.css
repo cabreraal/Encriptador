@@ -9,3 +9,29 @@
     background: #f3f5fc;
     /* background-color: red; */
   }
+  /* .caja{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+} */
+
+.contenedor_principal{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #f3f5fc;
+}
+.textarea_msn{
+    background-color: #f3f5fc;
+    position: absolute;
+    width: 42%;
+    height: 60%;
+    left: 12%;
+    top: 15%;
+    border: none;
+    font-style: normal;
+    font-family: "Inter";
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 32px;
+}
