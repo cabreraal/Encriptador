@@ -35,3 +35,14 @@
     font-weight: 400;
     font-size: 32px;
 }
+
+.textarea_msn::placeholder {
+  color: #0a3871;
+}
+/* Para quitar los vordes del textarea */
+.textarea_msn:focus,
+  .textarea_msn:active {
+    border: none;
+    outline: none;
+  }
+
