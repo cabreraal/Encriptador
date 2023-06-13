@@ -194,9 +194,10 @@ header {
   justify-content: center;
 }
 .btn_copia{
+    display: none;
     width: 70%;
     box-sizing: border-box;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
@@ -212,6 +213,7 @@ header {
     gap: 8px;
     font-size: 18px;
     line-height: 19px;
+    
 }
 .btn_copia:hover {
     margin: 0.3%;
