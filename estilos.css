@@ -13,7 +13,7 @@ header {
 .contenedor_principal {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 88vh;
     background: #f3f5fc;
 }
 
@@ -23,7 +23,7 @@ header {
     width: 42%;
     height: 58%;
     left: 12%;
-    top: 5%;
+    top: 4%;
     border: none;
     font-style: normal;
     font-family: "Inter";
@@ -125,7 +125,7 @@ header {
     justify-content: center;
     position: absolute;
     width: 30%;
-    height: 90%;
+    height: 77%;
     left: 60%;
     top: 5%;
     background: #fff;
@@ -180,7 +180,7 @@ header {
   position: absolute;
   width: 80%;
   left: 10%;
-  top: 87%;
+  top: 89%;
   justify-content: center;
 }
 .btn_copia{
