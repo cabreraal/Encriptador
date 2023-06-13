@@ -21,7 +21,7 @@ header {
     background-color: red;
     position: absolute;
     width: 42%;
-    height: 58%;
+    height: 60%;
     left: 12%;
     top: 4%;
     border: none;
@@ -29,7 +29,7 @@ header {
     font-family: "Inter";
     line-height: 150%;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
     resize: none;
 }
 
@@ -125,7 +125,7 @@ header {
     /* justify-content: center; */
     position: absolute;
     width: 30%;
-    height: 77%;
+    height: 72%;
     left: 60%;
     top: 5%;
     background: #fff;
@@ -174,6 +174,10 @@ header {
     line-height: 150%;
     text-align: center;
     color: #495057;
+  }
+  .texto-resultado{
+    color: #0a3871;
+    font-size: 20px;
   }
   .contenedor_encriptado img {
     position: absolute;
