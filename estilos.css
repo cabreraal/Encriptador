@@ -115,9 +115,9 @@ header {
 
 .btn_desencripta:hover,
 .btn_encripta:hover {
-    margin: 0.3%;
-    width: 24.5%;
-    padding: 1.8%;
+    /* margin: 0.3%; */
+    width: 24.6%;
+    padding: 1.3%;
 }
 
 .contenedor_encriptado{
@@ -205,8 +205,8 @@ header {
 }
 .btn_copia:hover {
     margin: 0.3%;
-    width: 69%;
-    padding: 1.8%;
+    width: 68%;
+    padding: 1.9%;
 }
 footer {
 	padding:0;
@@ -224,3 +224,68 @@ footer {
 footer p {
     margin: 0.8% 0;
 }
+
+/* Responsive design */
+@media (max-width: 57.5em) {
+    .contenedor_principal {
+      display: flex;
+      flex-direction: row;
+    }
+    .contenedor_encriptar {
+      width: 100%;
+    }
+    .textarea_msn {
+      width: 80%;
+      height: 60%;
+      left: 10%;
+      top: 5%;
+    }
+    .leyenda {
+      width: 80%;
+      left: 10%;
+      top: 67%;
+    }
+    .leyenda p {
+      font-size: 16px;
+    }
+    .contenedor_botones {
+      width: 80%;
+      left: 10%;
+      top: 70%;
+    }
+    .btn_encripta,
+    .btn_desencripta, .btn_copia{
+      width: 48%;
+      border-radius: 16px;
+    }
+    .btn_encripta:hover,
+    .btn_desencripta:hover, .btn_copia:hover {
+      margin: 0.3%;
+      width: 47.5%;
+      padding: 1.8%;
+    }
+    .contenedor_encriptado {
+      width: 80%;
+      height: 70%;
+      left: 10%;
+      top: 80%;
+
+    }
+    .texto_informativo {
+      width: 100%;
+      top: 1%;
+    }
+    .contenedor_encriptado img {
+      top: 0;
+      display: none;
+      visibility: hidden;
+    }
+    .caja_copiar{
+        width: 80%;
+        top: 80%;
+    }
+    footer{
+        margin: 0.5% 0;
+        padding: 1.8%;
+    }
+  }
