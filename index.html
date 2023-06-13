@@ -54,6 +54,23 @@
             mostrar();
 
         }
+        function limpiar(area) {
+
+document.getElementById(area).innerHTML = "";
+
+}
+
+        function copiar() {
+
+var resultado = document.getElementById("parrafo_llenado").textContent;
+
+// vars = document.getElementById("textoencriptado").value;
+
+document.getElementById("mensaje").value = resultado;
+
+limpiar("textoencriptado");
+
+}
 
 
 
@@ -101,7 +118,7 @@
         </div>
         <!-- Dejo una etiqueta parrafo para llenarla con el resultado del texto encriptado o desencriptado -->
         <div class="contenedor-resultado">
-            <p id="parrafo" class="texto-resultado"></p>
+            <p id="parrafo_llenado" class="texto-resultado"></p>
         </div>
     </div>
     <footer>
